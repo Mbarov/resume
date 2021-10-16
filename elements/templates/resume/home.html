@@ -1,0 +1,55 @@
+{% extends 'resume/base.html' %}
+{% load static %}
+
+{% block title %}
+{% endblock %}
+
+
+{% block content %}
+ <div class="pricing-header p-5 pb-md-4  mx-auto text-center">
+      <h1 class="display-5 fw-normal">Привет!</h1>
+      <p class="fs-3 ">Меня зовут Максим.<br>
+       И я хотел бы работать с Вами.<br><br>
+       Краткая информация обо мне:
+        <br><br>ФИО: Баров Максим Вячеславович<br>
+        Возраст: 28 лет<br><br>
+       Желаемая должность: web - разработчик, python - разработчик<br>
+      Стек технологий: <br>
+                       Python3 <br>
+                        Django <br>
+                        HTML5 <br>
+                        CSS3 <br>
+                        Bootstrap5 <br>
+                        SQL <br>
+      
+      </p>
+    </div>
+
+
+    {% comment %} <div class="pricing-header p-5 pb-md-4  mx-auto text-center">
+        <a href="{% url 'sertificat' %}"><img class="rounded-circle" src="{% static 'elements/img/about_me2.jpg' %}"   alt="">
+        <p class="fs-3 p-3">Мои сертификаты <br>
+       </p></a>
+    </div>
+    <div class="pricing-header p-5 pb-md-4  mx-auto text-center">
+        <a href="{% url 'my_teaching' %}"><img class="rounded-circle" src="{% static 'elements/img/learn.jpg' %}" alt="">
+        <p class="fs-3 p-3">Мое обучение<br>
+       </p></a>
+    </div>
+    <div class="pricing-header p-5 pb-md-4  mx-auto text-center">
+        <a href="{% url 'samples' %}"><img class="rounded-circle" src="{% static 'elements/img/projects2.jpg' %}"  alt="">
+        <p class="fs-3 p-3">Образцы работ <br>
+       </p></a>
+    </div>
+    <div class="pricing-header p-5 pb-md-4  mx-auto text-center">
+        <a href="{% url 'full' %}"><img class="rounded-circle" src="{% static 'elements/img/resume.jpg' %}"  alt="">
+        <p class="fs-3 p-3">Полное резюме<br>
+       </p></a>
+    </div>
+    <div class="pricing-header p-5 pb-md-4  mx-auto text-center">
+        <a href="{% url 'contacts' %}"><img class="rounded-circle" src="{% static 'elements/img/contact.jpg' %}"  alt="">
+        <p class="fs-3 p-3">Связь со мной <br>
+       </p></a>
+    </div> {% endcomment %}
+    
+{% endblock %}

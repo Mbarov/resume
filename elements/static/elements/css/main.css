@@ -1,0 +1,97 @@
+.navbar {
+    background: #434443;
+    letter-spacing: .1em;
+    min-height: 90px;
+    position: inherit;
+}
+
+html,
+body {
+    min-width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    color: #222;
+}
+
+.navbar a {
+    color: white !important;
+    text-decoration: none
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    color: #d33434 !important;
+    text-decoration: none;
+    /*выделение при наведении мышкой*/
+    transform: scale(1.05);
+    /*увеличение текста при наведении*/
+    transition: transform .4s ease;
+    /*задержка выделения на 400 миллисекунд*/
+}
+
+.rounded-circle {
+    width: 25%;
+    float: center;
+}
+
+.fa-vk {
+    color: #2163af;
+}
+
+.fa-instagram {
+    color: #DD2A7B;
+}
+
+.fa-share {
+    color: red
+}
+
+.fa-envelope {
+    color: rgb(92, 74, 74)
+}
+
+.fa-phone-square {
+    color: rgb(65, 204, 0)
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+
+/*поворот логотипа при наведении*/
+
+#image {
+    width: 100%;
+}
+
+#image2 {
+    width: 100%;
+}
+
+#image3 {
+    width: 80%;
+}
+
+.alert hr {
+    border-top: 2px solid #f0f0f0;
+    width: 60%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    padding: 1em;
+    border-radius: 2;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
