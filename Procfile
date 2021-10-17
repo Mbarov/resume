@@ -1,0 +1,1 @@
+web: gunicorn polar-springs-84973.wsgi --log-file -
