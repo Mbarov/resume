@@ -2,17 +2,18 @@
 {% load static %}
 
 {% block title %}
-Мои сертификаты 
+Мои сертификаты
 {% endblock %}
 
 {% block content %}
-<div class="pricing-header p-5 pb-md-4 mx-auto text-center"> 
+<div class="jumbotron">
+<div class="pricing-header p-1 pb-md-4 mx-auto text-center">
     <p class="fs-2">
-    Мои сертификаты 
+    Мои сертификаты
     </p>
 </div>
 
-<div class=" pricing-header p-5 mx-auto text-center"> 
+<div class=" pricing-header p-5 mx-auto text-center">
     <div class="container-fluid">
         <img id='image3' class='border border-secondary' src="{% static 'elements/img/sert/udemy.jpg' %}" alt="">
     </div>
@@ -27,6 +28,7 @@
 
         <div class="container-fluid">
         <img id='image3' class='border border-secondary' src="{% static 'elements/img/sert/deutsch.png' %}" alt="">
-    </div>  
+    </div>
+</div>
 </div>
 {% endblock %}
