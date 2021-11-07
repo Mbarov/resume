@@ -58,6 +58,39 @@ a:hover {
     color: rgb(65, 204, 0)
 }
 
+.fa-code {
+    color: #e54d26;
+}
+
+.fa-bold {
+    color: #563d7c;
+}
+
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-dochub {
+    color: #26e530;
+}
+
+.fa-table {
+    color: rgba(212, 238, 68, 0.867)
+}
+
+.fa-python {
+    color: #2633e5;
+}
+
+.fa-flask {
+    color: rgb(255, 0, 0)
+}
+
+.icons {
+    font-size: 4em;
+    margin: 1em;
+}
+
 .tilt:hover {
     -webkit-transform: rotate(-1deg);
     -moz-transform: rotate(-1deg);
@@ -94,4 +127,8 @@ a:hover {
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+#my_photo {
+    width: 95%;
 }

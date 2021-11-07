@@ -1,12 +1,13 @@
 <nav class="navbar navbar-expand-md  navbar-light sticky-top">
     <div class="container-fluid row text-center">
-        <div class="col-xs-6 col-md-auto col-lg-auto tilt" >
-            <a href="{% url 'home' %}" class='navbar-brand d-inline-flex'><span class="material-icons text-danger md-36">language</span><h3 class=''>MBarov</h3></a>
-        </div>
-        <div class='col-xs-6 col-md-12 col-lg-auto'>
-            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
+        <div class="col-8 row col-md-auto col-lg-auto tilt pl-5" >
+             <a href="{% url 'home' %}" class='navbar-brand d-inline-flex'><span class="material-icons text-danger md-36">language</span><h3 >MBarov</h3></a>
+        </div> 
+        <div class='col-4 col-md-12 col-lg-auto'>
+            <button class='navbar-toggler float-right' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button></div>
+            <div class='col-12 col-md-12 col-lg-auto'>
             <div class='collapse navbar-collapse  ' id='navbarResponsive'>
                 <ul class="nav navbar-nav ml-auto">
                     <li class='nav-item'><a class='nav-link  text-uppercase  px-3' href="{% url 'sertificat' %}">Сертификаты</a></li>
@@ -16,7 +17,7 @@
                     <li class='nav-item'><a class='nav-link  text-uppercase  px-3' href="{% url 'contacts' %}">Связь со мной</a></li>
                 </ul>
             </div>
-        </div>
+        </div></div>
     </div>
 </nav>
 

@@ -19,18 +19,18 @@
             </p>
         </div>
         <div class="col-md-9">
-            <p class="fs-4 text-start">
+            <p class="fs-4 text-justify">
                 Баров Максим Вячеславович
             </p><br>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 ">
             <p class="font-weight-bold fs-4 text-center">
                 Возраст
             </p>
         </div>
         <div class="col-md-9">
-            <p class="fs-4 text-start">
+            <p class="fs-4 text-justify">
                 28 лет
             </p><br>
         </div>
@@ -41,7 +41,7 @@
             </p>
         </div>
         <div class="col-md-9">
-            <p class="fs-4 text-start">
+            <p class="fs-4 text-justify">
                 Инженер-строитель по образованию. Окончил УлГТУ в 2015 году. <br>Также обучался в физико-математическом лицее при УлГТУ.
             </p><br>
         </div>
@@ -52,7 +52,7 @@
             </p>
         </div>
         <div class="col-md-9">
-            <p class="fs-4 text-start">
+            <p class="fs-4 text-justify">
                 Мой основной вид деятельности - строительство.
     Я начинал работу инженером-проектировщиком - делал проекты инженерных сетей небольших зданий, в основном коттеджей или небольших административных зданий.
     Далее вырос до  производителем работ. По роду своей деятельности занимался составлением проектной документации, руководством монтажными работами, составлением заявок на материал, расчетом з/п, работой с субподрядными и смежными организациями, составлением исполнительной документации и тд. <br>
@@ -64,9 +64,9 @@
             </p>
         </div>
         <div class="col-md-9">
-            <p class="fs-4 text-start">
-                Сейчас я изучаю веб-программирование. Прошел несколько курсов (подробнее в разделе "Мое обучение"),
-    а также создал проекты, с которыми можно ознакомиться в разделе "Образцы работ".<br>
+            <p class="fs-4 text-justify">
+                Сейчас я изучаю веб-программирование. Прошел несколько курсов (подробнее в разделе <a class='fst-italic text-decoration-underline' href="{% url 'my_teaching' %}">"Мое обучение"</a> ),
+    а также создал проекты, с которыми можно ознакомиться в разделе <a class='fst-italic text-decoration-underline' href="{% url 'samples' %}" >"Образцы работ".</a> <br>
             </p><br>
         </div>
         <div class="col-md-3">
@@ -74,7 +74,7 @@
                 Стек технологий
             </p>
         </div>
-        <div class="col-md-9 text-start">
+        <div class="col-md-9 text-justify">
             <p class="fs-4">
                 Изучил Python3, Django, HTML5, CSS3, Bootstrap5. Познакомился с  SQL.<br>
     Впереди - изучение SQL, JavaScript, Flask. <br>
@@ -86,7 +86,7 @@
             </p>
         </div>
         <div class="col-md-9">
-            <p class="fs-4 text-start">
+            <p class="fs-4 text-justify">
                 Английский язык: уровень А2-B1<br>
                 Немецкий язык: уровень А2
             </p><br>
@@ -97,7 +97,7 @@
                Прочая информация
             </p>
         </div>
-        <div class="col-md-9 text-start">
+        <div class="col-md-9 text-justify">
             <p class="fs-4">
     Участвовал в летнем интенсиве от Simbirsoft.<br>
     Был победителем конкурса презентаций от "Мастер IT", учась в лицее (создал небольшой фильм в программе Microsoft Power Point, с сюжетом, озвучкой и неожиданной концовкой =) ).<br>
@@ -108,7 +108,7 @@
                 Мои интересы
             </p>
         </div>
-        <div class="col-md-9 text-start">
+        <div class="col-md-9 text-justify">
             <p class="fs-4">
                 IT, строительство, кино, путешествия, бассейн.
             </p>
@@ -116,8 +116,8 @@
     </div>
 
 <hr class='my-4'>
-<div class="container-fluid row pricing-header p-5 mx-auto text-center jumbotron">
-    <p class="fs-3">
+<div class="container-fluid row pricing-header text-center jumbotron">
+    <p class="fs-3 pb-4 ">
      Мои основные объекты в сфере строительства:
     </p><br>
     <div class="col-md-12 col-lg-6">
@@ -127,7 +127,7 @@
         <p class="fs-3 ">
             ЖК Небо, башня Тандем, г.Москва
         </p>
-        <p class="fs-4 ">
+        <p class="fs-4 text-justify ">
             Руководство работами по монтажу системы кондиционирования 52 этажной башни Тандем от Capital Group в г. Москва
         </p>
     </div>
@@ -136,11 +136,11 @@
         <div class="col-md-12 col-lg-6">
         <img id='image' src="{% static 'elements/img/work/new-life.jpg' %}" alt="">
     </div>
-    <div class="col-md-12 col-lg-6">
+    <div class="col-md-12 col-lg-6 ">
         <p class="fs-3 ">
             ЖК Новая Жизнь, г.Ульяновск
         </p>
-        <p class="fs-4">
+        <p class="fs-4 text-justify ">
             Руководство работами по монтажу систем отопления водоснабжения и канализации домов №8,9,10,14
         </p>
 
@@ -154,7 +154,7 @@
         <p class="fs-3 ">
             ЖК Пушкаревский,  г.Ульяновск
         </p>
-        <p class="fs-4 ">
+        <p class="fs-4 text-justify">
             Руководство работами по монтажу систем отопления, водоснабжения и канализации домов № 1 и 2
         </p>
 
@@ -167,7 +167,7 @@
         <p class="fs-3 ">
             Аэропорт Восточный, г.Ульяновск
         </p>
-        <p class="fs-4 ">
+        <p class="fs-4 text-justify">
             Руководство работами по реконструкции системы наружного теплоснабжения
         </p>
     </div>
